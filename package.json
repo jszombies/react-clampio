@@ -1,0 +1,41 @@
+{
+  "name": "react-clampio",
+  "version": "0.1.0",
+  "description": "React component for clamping lines. It adds ellipsis if text exceeds the defined max lines value",
+  "main": "./dist/Clampio.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel Clampio.jsx -d dist",
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jszombies/react-clampio.git"
+  },
+  "keywords": [
+    "react",
+    "clamp",
+    "ellipsis",
+    "text"
+  ],
+  "author": "Alexey Vakulich <alexey.vakulich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jszombies/react-clampio/issues"
+  },
+  "homepage": "https://github.com/jszombies/react-clampio#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "rimraf": "^2.6.2"
+  }
+}
