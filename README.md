@@ -25,9 +25,9 @@ const longText = 'Lorem ipsum ...';
 ```
 
 # Props
-| Name | Type | Required | Description |
-| ---- | ---- | -------- | ----------- |
-| text | string | true   | Text to truncate |
-| lines | number | false | Maximum lines (default 2) |
-| ellipsis | string | fasle | Symbol at the end of truncated text (default ...)     |
-| className | string | false | Custom classname    |
+| Name      | Type   | Required | Description                                           |
+| --------- | ------ | -------- | ----------------------------------------------------- |
+| text      | string | true     | Text to truncate                                      |
+| lines     | number | false    | Maximum lines (default 2)                             |
+| ellipsis  | string | fasle    | Symbol at the end of truncated text (default ...)     |
+| className | string | false    | Custom classname                                      |
