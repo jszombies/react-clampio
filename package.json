@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "description": "React component for clamping lines. It adds ellipsis if text exceeds the defined max lines value",
   "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --config ./example/webpack.config.js",
     "clean": "rimraf dist",
-    "prebuild": "yarn clean"
+    "prebuild": "yarn clean",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",
